@@ -1,0 +1,52 @@
+.data-table {
+
+  // HEADERS
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    font-family: Avenir;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 0.5em;
+
+    .header {
+      @include font(0.919em, #666666, 600);
+    }
+
+    padding: {
+      right: 1.4em;
+      left: 1.4em;
+      top: 1em;
+    };
+
+    .sort-buttons {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      position: relative;
+      cursor: pointer;
+
+      .selected-sort {
+        color: #333333;
+        z-index: 1;
+      }
+
+      .unselected-sort {
+        color: #999999;
+        z-index: 2;
+      }
+
+
+      .up {
+        margin-bottom: -0.36em;
+      }
+
+      .down {
+        margin-top: -0.36em;
+      }
+    }
+
+  }
+  // /HEADERS
+}

@@ -1,0 +1,16 @@
+select {
+  @include font(0.818em, #666666, 600);
+  background: white url('https://img.icons8.com/metro/150/999999/expand-arrow.png') no-repeat right 0.7em center;
+  background-size: 0.8em;
+  -webkit-appearance: none;
+  outline: none;
+  border: 1px solid #d7d7d7;
+  border-radius: 2px;
+  padding: {
+    top:0; //0.48em;
+    bottom: 0;//0.32em;
+    left: 1.2em;
+    right: 2.5em;
+  }
+  height: 2.3em;
+}

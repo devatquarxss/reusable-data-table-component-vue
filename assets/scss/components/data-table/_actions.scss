@@ -1,0 +1,55 @@
+.data-table {
+
+  // action column
+  .actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    .loop {
+
+      .content {
+
+        margin: {
+          left: 0.1em;
+          right: 0.1em;
+        }
+
+        .icon {
+          @include font(1em, #666666, normal);
+          position: relative;
+          top: 0.2em;
+          cursor: pointer;
+          margin-right: 0.2em;
+        }
+
+      }
+    }
+  }
+  // /action column
+}
+
+// Edit MODAL
+.edit-modal-card {
+  height: 18em;
+
+  .edit-text-area {
+    padding: 1.4em;
+
+    textarea {
+      height: 16.2em;
+    }
+  }
+
+  .flat-top-border-button {
+    @include font(0.8em, #666666, 600);
+    border-top: 1px solid #efefef;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 2.8em;
+    outline: none;
+  }
+}
+// /Edit MODAL

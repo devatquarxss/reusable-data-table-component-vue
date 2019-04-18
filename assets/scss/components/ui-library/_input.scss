@@ -1,0 +1,13 @@
+input {
+  @include font(0.818em, #666666, 600);
+  min-width: 15em;
+  outline: none;
+  border: 1px solid #d7d7d7;
+  border-radius: 2px;
+  height: 2.3em;
+  padding: 0 0.2em 0 2.5em;
+  //padding: 0.4em 0.2em 0.28em 2.5em;
+  text-align: left;
+  -webkit-appearance: none;
+  background: white;
+}

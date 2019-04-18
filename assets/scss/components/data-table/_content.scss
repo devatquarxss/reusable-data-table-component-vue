@@ -1,0 +1,36 @@
+.data-table {
+
+  .data-container {
+    box-shadow: 0 1px 13px 0 rgba(0, 0, 0, 0.23);
+    background-color: #ffffff;
+    border-radius: 2px;
+
+    position: relative;
+    display: flex;
+    max-height: 70vh;
+    overflow-y: scroll;
+
+
+
+    // CONTENT
+    .content-container {
+
+      .content-row {
+        @include font(0.7em, inherit, normal);
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        height: 4em;
+        border-bottom: 1px solid #eeeeee;
+        padding: {
+          top: 0.3em;
+          bottom: 0.3em;
+          right: 2em;
+          left: 2em;
+        }
+        border-radius: 2px;
+      }
+    }
+    // CONTENT
+  }
+}

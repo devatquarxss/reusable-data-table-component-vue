@@ -1,0 +1,23 @@
+body {
+
+  //  xs
+  @media (max-width: 	600px) {
+    font-size: 14px;
+  }
+  //  sm
+  @media (min-width: 601px) and (max-width: 	960px) {
+    font-size: 14px;
+  }
+  //  md
+  @media (min-width: 961px) and (max-width: 	1264px) {
+    font-size: 16px;
+  }
+  //lg
+  @media (min-width: 1265px) and (max-width: 	1904px) {
+    font-size: 16px;
+  }
+  //xl
+  @media (min-width: 1905px) {
+    font-size: 22px;
+  }
+}

@@ -1,0 +1,186 @@
+$mobileFilterFont: 16px;
+// Filter and search
+.filter-and-search-container {
+  width: 100%;
+  @media screen and (max-width: 600px) {
+    justify-content: space-between;
+  }
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .filter-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    @media screen and (max-width: 600px) {
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
+
+}
+// /Filter and search
+
+
+.input-with-icon {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+
+  i {
+    @include font(1em, #888888, 600);
+    position: absolute;
+    left: 0.7em;
+  }
+
+  @media screen and (min-width: 600px) {
+    margin: 0.2em;
+  }
+
+}
+
+// select
+.select-box {
+  @media screen and (max-width: 600px) {
+    @include font($mobileFilterFont, #333333, 600);
+    margin-bottom: 1em;
+    width: 100%;
+    select {
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    margin:0.2em;
+  }
+}
+
+
+// inputs
+.date-input {
+  @media screen and (max-width: 600px) {
+    i {
+      @include font(18px, #333333, 600);
+    }
+    margin-bottom: 1em;
+    width: 100%;
+    input {
+      @include font($mobileFilterFont, #333333, 600);
+      width: 100%;
+    }
+  }
+
+  input{
+    min-height: 2.1em;
+  }
+
+  .calendar-icon {
+    margin-top: -1px;
+  }
+}
+
+
+
+.search-input {
+  @media screen and (max-width: 600px) {
+    i {
+      @include font(18px, #333333, 600);
+    }
+
+   // margin-top: 1em;
+    width: 100%;
+    input {
+      @include font($mobileFilterFont, #333333, 600);
+      width: 100%;
+    }
+  }
+}
+
+
+
+// mobile specific
+.filter-float-button {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  background: #666666;
+  height: 3em;
+  width: 3em;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  cursor: pointer;
+
+  i {
+    @include font(1.4em, #ffffff, 500);
+  }
+}
+
+.bottom-sheet-card {
+
+
+  .filter-container {
+    flex-wrap: wrap;
+    max-height: 48vh;
+    overflow-y: scroll;
+
+    padding: {
+      left: 1.2em;
+      right: 1.2em;
+      top: 0.6em;
+      bottom: 0.3em;
+    };
+  }
+
+  .filter-label {
+    @include font(1.1em, #666666, 600);
+  }
+}
+
+.close-n-clear-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0.1em 1.2em;
+  background: #fafafa;
+
+  .close-filter {
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    outline: none;
+    cursor: pointer;
+
+    i {
+      @include font(1.6em, #ff4a50, 600);
+    }
+  }
+
+  .filter-heading {
+    @include font(1.2em, #333333, 600);
+  }
+
+  .clear-filter {
+    @include font(1.1em, #ff4a50, 600);
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    outline: none;
+    cursor: pointer;
+    padding-left: 0.6em;
+    border-radius: 2px;
+  }
+}
+// /mobile specific
+
