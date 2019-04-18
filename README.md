@@ -127,13 +127,13 @@ $ npm run test
 - 22 hours
 
 ###### Would you do anything differently if you had more time?
-- would have
-1 included pagination.
-2 kept price range filter as slider instead of select.
-3 kept a filter for date & time range.
-4 updated search prop to search on basis of specific keys (name, description etc) instead of all keys.
-5 kept actions in mobile
-6 distributed data-table.vue component into smaller sub components.
+would have:
+- included pagination.
+- kept price range filter as slider instead of select.
+- kept a filter for date & time range.
+- updated search prop to search on basis of specific keys (name, description etc) instead of all keys.
+- kept actions in mobile
+- distributed data-table.vue component into smaller sub components.
 
 ###### In what ways would you adapt your component so that it could be used in many different scenarios where a data table is required?
 - have already made a components/data-table.vue component which accepts props: (a) headers, (b) items, (c) filters, (d) search, (e) actions.
