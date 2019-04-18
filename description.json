@@ -1,0 +1,31 @@
+{
+  "Name": "Shivam Singh",
+  "Is a frontend developer ?": true,
+  "Professional development experience (in years)": 3,
+  "Contact information": {
+    "Email": "devatquarxss@gmail.com",
+    "Phone": "+91-7204801946",
+    "LinkedIn": "https://www.linkedin.com/in/shivamsi/",
+    "Fax": null
+  },
+  "Links": [
+    {
+      "type": "blog",
+      "link": "https://shivamsi.firebaseapp.com/"
+    },
+    {
+      "type": "portfolio",
+      "link": "https://medium.com/@shivampesitbng"
+    }
+  ],
+  "Primary tech stacks": {
+    "Frontend": [
+      "JavaScript",
+      "Vue"
+    ],
+    "Backend": [
+      "Node",
+      "Firebase"
+    ]
+  }
+}
