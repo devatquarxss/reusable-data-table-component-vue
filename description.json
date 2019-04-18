@@ -9,23 +9,11 @@
     "Fax": null
   },
   "Links": [
-    {
-      "type": "blog",
-      "link": "https://medium.com/@shivampesitbng" 
-    },
-    {
-      "type": "portfolio",
-      "link": "https://shivamsi.firebaseapp.com/"
-    }
+    { "type": "blog", "link": "https://medium.com/@shivampesitbng" },
+    { "type": "portfolio", "link": "https://shivamsi.firebaseapp.com/" }
   ],
   "Primary tech stacks": {
-    "Frontend": [
-      "JavaScript",
-      "Vue"
-    ],
-    "Backend": [
-      "Node",
-      "Firebase"
-    ]
+    "Frontend": [ "JavaScript", "Vue" ],
+    "Backend": [ "Node", "Firebase" ]
   }
 }
